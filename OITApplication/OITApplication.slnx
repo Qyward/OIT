@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OITApplication.Database/OITApplication.Database.csproj" />
+  <Project Path="OITApplication/OITApplication.csproj" />
+</Solution>

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+.text{
+    display: flex;
+    background-color: #C6C6DC;
+    height: 70px;
+    align-items: center;
+    padding-left: 222px;
+    padding-right: 221px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    margin-left: 319px;
+    margin-right: 283px;
+    background-color: #BDBDC6;
+    padding-right: 81px;
+    padding-left: 140px;
+    height: 498px;
+    gap: 100px;
+    margin-top: 41px
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    padding-top: 77px;
+    padding-bottom: 77px;
+}
+
+
+
+.account-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 0px;
+}
+
+.info{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-top: 1px solid #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px; 
+}
+
+.info span{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.butt{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.logout{
+    /*display: none;*/
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logout-button{
+    width: 212px;
+    height: 62px;
+    border-radius: 30px;
+    background-color: #202846;
+    color: #FFFFFF;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #BDBDC6;
+    margin-left: 319px;
+    margin-right: 283px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 200px;
+    height: 30px;
+    color: white;
+    border: 2px solid gray;
+    color: black;
+}
+
+.input button{
+    width: 200px;
+    height: 50px;
+    background-color: #202846;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.input input::placeholder{
+    color: black;
+}
