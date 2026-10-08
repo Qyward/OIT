@@ -36,7 +36,7 @@
             <p>Особистий кабінет</p>
         </article>
         
-        <article class="account">
+        <article class="account" id="account">
             <div class="avatar">
                 <img src="./icons/baseAccountImage.png" class="avatar-icon">
                 <button class="butt" style="background-color: #69749B;">Змінити аватар</button>
@@ -52,11 +52,11 @@
             </div>
         </article>
 
-        <div class="logout">
-            <button class="logout-button">Вийти</button>
+        <div class="logout" id="logout">
+            <button class="logout-button" onclick="logOut(event)">Вийти</button>
         </div>
 
-        <div class="input">
+        <div class="input" id="input">
             <article class="input-registration">
                 <div>
                     <form>

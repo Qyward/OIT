@@ -14,7 +14,7 @@
     font-size: 30px;
 }
 .account{
-    display: flex;
+    display: none;
     justify-content: center;
     margin-left: 319px;
     margin-right: 283px;
@@ -66,7 +66,7 @@
 }
 
 .logout{
-    /*display: none;*/
+    display: none;
     margin-top: 40px;
     text-align: center;
 }
@@ -87,7 +87,6 @@
     margin-left: 319px;
     margin-right: 283px;
     margin-top: 40px;
-    margin-bottom: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
 }

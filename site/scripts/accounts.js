@@ -6,6 +6,10 @@ function get_data(){
     let token = localStorage.getItem("jwtToken");
 
     if(token != null){
+        document.getElementById("logout").style.display = "block";
+        document.getElementById("account").style.display = "flex";
+        document.getElementById("input").style.display = "none";
+                
         fetch(userUrl, {
             method: "GET",
             headers: {
