@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holiday time</title>
     <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/footer.css ">
+
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header class="head">
+    <header class="head" id="top">
         <img src="./icons/icon.ico" alt="">
         <ul>
             <li class="item"><a href="./index.html">ГОЛОВНА</a></li>
@@ -26,18 +35,32 @@
     </header>
 
     <section>
+        <article class="image">
+            <img src="./icons/image2.png">
+            <div class="image-text">
+                <p style="font-size: 35px;">HolidayTime</p>
+                <p>Автентичний відпочинок серед українського колориту!</p>
+            </div>
+        </article>
 
-        <article>
-            <form action="", method="post">
-                <p>Ім'я</p>
-                <input type="text">
-                <p> Номер телефону</p>
-                <input type="text">
-                <input type="submit">
-            </form>
+        <article class="info">
+            <div class="card-image">
+                <img src="./icons/image4.png">
+            </div>
+            <div class="info-text">
+                <p>Активний відпочинок у нетипових лоцаціях. Незаймана природа та місцевий колорит
+                    подарують Вам незабутні враження.</p>
+            </div>
         </article>
     </section>
 
-    <footer><p>&copy; 2021 Holiday time. All rights reserved</p></footer>
+    <a href="#top" id="link-to-top">🔝
+
+    </a>
+
+    <footer>
+        <p>&copy; 2021 Holiday time. All rights reserved</p>
+    </footer>
 </body>
+
 </html>

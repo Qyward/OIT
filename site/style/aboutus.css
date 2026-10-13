@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.image img{
+    width: 1300px;
+}
+
+.image-text{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    width: 800px;
+}
+
+.text-info{
+    display: flex;
+    background-color: var(--main-color);
+    width: 1300px;
+    height: 380px;
+    margin-top: 23px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 110px;
+    gap: 50px;
+    font-family: 'PT Sans', sans-serif;
+}

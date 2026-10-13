@@ -1,24 +1,12 @@
 *{
     margin: 0;
 }
-
-.text{
-    display: flex;
-    background-color: #C6C6DC;
-    height: 70px;
-    align-items: center;
-    padding-left: 222px;
-    padding-right: 221px;
-    font-family: 'PT Sans', sans-serif;
-    font-style: italic;
-    font-size: 30px;
-}
 .account{
     display: none;
     justify-content: center;
     margin-left: 319px;
     margin-right: 283px;
-    background-color: #BDBDC6;
+    background-color: var(--main-color);
     padding-right: 81px;
     padding-left: 140px;
     height: 498px;
@@ -75,7 +63,7 @@
     width: 212px;
     height: 62px;
     border-radius: 30px;
-    background-color: #202846;
+    background-color: var(--main-color);
     color: #FFFFFF;
 }
 
@@ -83,7 +71,7 @@
     display: flex;
     justify-content: center;
     gap: 100px;
-    background-color: #BDBDC6;
+    background-color: var(--main-color);
     margin-left: 319px;
     margin-right: 283px;
     margin-top: 40px;
@@ -110,7 +98,7 @@ input[type="password"]{
 .input button{
     width: 200px;
     height: 50px;
-    background-color: #202846;
+    background-color: var(--blue);
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     color: white;

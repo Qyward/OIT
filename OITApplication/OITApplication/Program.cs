@@ -122,6 +122,11 @@ namespace OITApplication
                 return Results.BadRequest("такой пользователь уже существует.");
             });
 
+            app.MapGet("/getHouses", () =>
+            {
+                return Results.Ok();
+            });
+
             app.Run();
         }
     }

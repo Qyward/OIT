@@ -1,5 +1,11 @@
+:root{
+    --blue: #202846;
+    --main-color: #C6C6DC;
+    --white: white;
+}
+
 .head{
-    background-color: #202846;
+    background-color: var(--blue);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,8 +15,8 @@
 
 .text{
     display: flex;
-    background-color: #C6C6DC;
-    height: 70px;
+    background-color: var(--main-color);
+    height: 140px;
     align-items: center;
     padding-left: 222px;
     padding-right: 221px;
@@ -31,20 +37,20 @@
     width: 140px;
     list-style: none;
     height: 50px;
-    border-right: 2px solid white;
+    border-right: 2px solid var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .item a{
-    color: white;
+    color: var(--white);
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
 }
 
 
 .language{
-    color: white;
+    color: var(--white);
     position: relative;
     height: 100%;
     width: 80px;
@@ -56,7 +62,7 @@
 .language-menu{
     display: none;
     position: absolute;
-    background-color:#202846;
+    background-color:var(--blue);
     width: 100%;
     height: 100px;
     top: 60px;
@@ -67,10 +73,10 @@
 }
 
 .language-menu a{
-    color: white;
+    color: var(--white);
 }
 
 .language:hover .language-menu{
     display: flex;
-    color: white;
+    color: var(--white);
 }
